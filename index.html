@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="es">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500&display=swap" rel="stylesheet">
+        <link rel="stylesheet" href="./diseño/reset.css">
+        <link rel="stylesheet" href="./diseño/style.css">
+        <title>Challenge I Encriptador</title>
+    </head>
+    <body>
+        <header>
+            <div class="logo">
+                <img class="logo-img" src="./imagenes/Vector.png">
+                <h1 class="titulo">Encriptador de mensaje</h1>
+            </div>
+        </header>
+        
+        <main>
+            <div class="container">
+                <div class="izquierda">
+                    <input class="text-input" id="imputTexto" type="text" placeholder="Ingrese el texto aquí">
+                </div>
+
+                <div class="derecha">
+                    <img src="./imagenes/Muniecopersona.svg" id="img-der">
+                    <h2 id="texto">Ningun mensaje fue encontrado</h2>
+                    <textarea class="contenido" id="texto2" cols="30" rows="10">Ingrese el texto que desees encriptar o desencriptar</textarea>
+                    <button id="copiar" type="button" value="Copiar" >Copiar</button>
+                </div>
+
+                <div class="izq-boton">
+                    <p class="intrucciones">Solo letras minusculas y sin acentos</p>
+                    <button type="button" id="bton-encrip" onclick="encriptar()">Encriptar</button>
+                    <button type="button" id="bton-desencrip" onclick="desencriptar()">Desencriptar</button>
+                </div>
+            </div>
+
+        </main>
+
+        <footer>   
+            <p class="pie">Designed by Gonzalo de Campo @2023</p>
+        </footer>
+
+     <script src="./logica/main.js"></script>  
+    </body>
+</html>
