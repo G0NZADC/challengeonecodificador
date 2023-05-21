@@ -158,12 +158,13 @@ footer {
     }
     #bton-desencrip{
         justify-content: center;
-         width: 350px;
-         margin-left: 0;
+        width: 350px;
+        margin-left: 0;
+        margin-bottom: 3em;
     }
         
     #img-der{
-     display: none;
+        display: none;
     }
 
     #copiar{
