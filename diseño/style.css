@@ -19,7 +19,7 @@ body{
     margin-top: 5em;
 }
 .container{ 
-    width: 100%;
+    width: 1440px;
     height: 1024px;
     padding: 5px;   
 }
@@ -140,27 +140,35 @@ footer {
     }
 
     .izquierda{
-        width: 100%;
+        width: 400px;
         height: 100%;
     }
     
+    .text-input{
+        margin-left: 0;
+        margin-top: 10%;
+        margin-right: 0;
+        width: 100%;
+
+    }
+
     .derecha{
         margin:0;
         padding: 0;
-        width: 100%;
+        width: 400px;
             
     }
 
     #bton-encrip{
         justify-content: center;
         width: 350px;
-        margin-left: 0;
+        margin: 0;
     }
     #bton-desencrip{
-        justify-content: center;
+        content: center;
         width: 350px;
         margin-left: 0;
-        margin-bottom: 3em;
+        margin-bottom: 4em;
     }
         
     #img-der{
@@ -168,6 +176,7 @@ footer {
     }
 
     #copiar{
+        width: 90%;
         margin-left: 33%;
         margin-top: auto;
     }
@@ -179,6 +188,7 @@ footer {
         width: 80%;
         height: 350px;
         padding: 3px;
+        content: center;
     }
         
     .titulo{
